@@ -1,3 +1,8 @@
+/* url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) */
+/* url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff)
+format("woff"); */
+
+
 * {
     margin: 0;
     padding: 0;
@@ -302,8 +307,12 @@ ul li {
 
 
 .mainimage {
+    height: 150vh;
+    position: sticky;
+    /* background-color: red; */
+    /* z-index: 1; */
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 1fr 10fr;
     grid-template-rows: 0;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -320,48 +329,253 @@ ul li {
 }
 
 .imgsss {
+    margin-top: 3rem ;
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: ce;
-    margin: 1.2rem;
+    margin-left: 1.2rem;
     height: 38rem;
     /* width: 100%; */
-    background-color: red;
+    /* background-color: red; */
 }
+
 
 ul .borderr {
-    margin: 0.5rem;
     width: 100%;
+    margin: 0.4rem;
+    border: 2px rgba(128, 128, 128, 0.256) solid;
+    border-radius: 1rem;
 
-    border: 2px gray solid;
+}
+/* ul .borderr:hover{
+    display: none;
+    background-color: red;
+} */
+.imgbig{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    /* padding: 1rem 1rem; */
+}
+.imgbig:hover{
+    /* width: 20px; */
+}
+.div2 .container{
+    /* font-size: 2.4rem; */
+    width: 37vw;
+    height: 170vh;
+    /* background-color: rgb(172, 65, 65); */
+    color: #000;
 
 
 }
-
-/* .a-button-input{
-    -webkit-text-size-adjust: 100%;
-    word-wrap: break-word;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: inherit;
-    margin: 0;
-    font-size: 100%;
-    vertical-align: middle;
-    transition: all .1s linear;
-    line-height: 19px;
+.container > P{
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: #0F1111
+}
+.colors{
+    position: relative;
+    color: #007185;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    /* padding: 1rem; */
+}
+.colorss{
     position: absolute;
-    background-color: transparent;
-    color: transparent;
-    border: 0;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    opacity: .01;
-    outline: 0;
-    overflow: visible;
-    z-index: 20;
-    cursor: pointer;
-    -webkit-appearance: button;
-} */
+    color: #007185;
+    left: 55rem;
+    font-size: 1.5rem;
+
+}
+.star{
+    /* margin-bottom: 2rem; */
+    margin-left: 1rem;
+
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    color: #007185;
+    box-sizing: border-box;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-top;
+    height: 18px;
+    width: 80px;
+    background-size: 512px 512px;
+    background-repeat: no-repeat;
+    background-position: -2px -42px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/ZNt8quAxIfEMMky.png);
+}
+.arrowdown{
+    position: absolute;
+    background: url('../assest/McBZv0ZvnbehkIx.png') no-repeat -7px -103px;
+	width: 10px;
+	height: 7px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    /* margin-bottom: 1rem; */
+}
+.colorred{
+    line-height: 2rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: red;
+    margin-left: 1rem;
+
+}
+.design{
+    color: #000;
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+.flexthat{
+    color: #000;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+.bold{
+    color: #000;
+    font-size: 1.5rem;
+}
+.colorbl{
+    color: #000;
+}
+.marginall{
+    margin-top: 2rem;
+}
+.marginle{
+    margin-left: 1rem;
+    color: #0F1111;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.ulu{
+    margin-left: 1rem;
+}
+.lil{
+    margin-left: 1rem;
+    color: #0F1111;
+    line-height: 2rem;
+    list-style:circle;
+}
+.smallbus{
+    color: #000;
+    font-size: 1rem;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+.flexit{
+    margin-left: 1rem;
+    display: flex;
+}
+.colorblack{
+    line-height: rem;
+    color: #000;
+    margin-left: 2rem;
+}
+.listbuy{
+    /* line-height: 1rem; */
+    text-align: center;
+    margin-left: 5vw ;
+    margin-top: 5vh;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(177, 124, 124); */
+    border-radius: 1rem;
+    border: 1px rgba(128, 128, 128, 0.8) solid
+    
+}
+.redcolorr{
+    padding: 1rem;
+    font-size: 1.4rem;
+    /* margin-bottom: 2rem; */
+    color: rgba(255, 57, 57, 0.853);
+}
+.loremside{
+    font-size: x-small;
+    color: black;
+    line-height: 1.4rem;
+}
+.similarit{
+    color: black;
+    background-color: rgb(250, 195, 94);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    width: 16vw;
+    height: 2.5rem;
+}
+.locationn{
+    color: #000;
+    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -78px -341px;
+	width: 16px;
+	height: 19px;
+}
+.flexlocation{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.marginn{
+    font-size: x-small;
+    color: #007185;
+    margin-left: 1rem;
+}
+.desinnn{
+    text-align: left;
+    padding-left: 1rem;
+    color: black;
+    margin-top: 2rem;
+    width: 16vw;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    border: 1px rgba(128, 128, 128, 0.8) solid
+}
+.centersell{
+    color: black;
+}
+.des{
+    color: black;
+    font-size: x-small;
+}
+.doflex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    color: black;
+    margin-top: 2rem;
+}
+.amazonsell{
+    color: #000;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 0.5rem;
+    background: none;
+    border: 1px rgba(128, 128, 128, 0.8) solid
+
+}
+.cssimg{
+     text-align: center;
+     margin-left: 5vw ;
+     margin-top: 5vh;
+     width: 20rem;
+     height: 22rem;
+     /* border: 1px rgba(128, 128, 128, 0.8) solid */
+
+
+}
+.ww{
+    color: black;
+}
