@@ -307,8 +307,8 @@ ul li {
 
 
 .mainimage {
+    /* position: sticky; */
     height: 170vh;
-    position: sticky;
     /* background-color: red; */
     /* z-index: 1; */
     display: grid;
@@ -360,9 +360,6 @@ ul .borderr {
     height: 45rem;
 }
 
-.div5 {
-    position: sticky;
-}
 
 .imgbig:hover {}
 
@@ -740,26 +737,59 @@ ul .borderr {
     height: 2.6rem;
 }
 
-.arrowright {
+
+
+.img-container {
+    text-align: center;
+}
+
+.grid-container {
+
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    /* grid-gap: 1em; */
+}
+
+.grid-item {
+
+    /* padding: 2rem; */
+    width: 80%;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.flexarrow {
+    position: relative;
+    margin-bottom: 2rem;
+
+}
+
+#left-arrow {
     position: absolute;
-    padding: 0 0.8rem;
-    margin-left: 0.5rem;
-    top: 20vh;
-    background: url('/assest/McBZv0ZvnbehkIx.png') no-repeat -124px -8px;
-    height: 3rem;
+    background: none;
+
+    color: #000;
+    bottom: 30vh;
+    left: 1rem;
+    right: 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px rgba(128, 128, 128, 0.8) solid
 }
 
-/* button {
-    background-color: transparent;
-    border: none;
+#right-arrow {
+    color: black;
+    background: none;
+
+    position: absolute;
+    bottom: 30vh;
+    right: 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px rgba(128, 128, 128, 0.8) solid
 }
 
-button:hover {
-    cursor: pointer;
-} */
-
-.left-arrow {
-    width: 21px;
-    height: 21px;
-    background-color: red;
-}

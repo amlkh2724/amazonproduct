@@ -41,17 +41,24 @@ img7.addEventListener("mouseover", function () {
 
 
 let currentImg = 0;
-const imgs = ["img1.jpg", "img2.jpg", "img3.jpg"];
-const img = document.getElementById("img");
+const imgs = ["/assest/firstimgballs.png", "/assest/secondimgballs.png", "/assest/thirdimgballs.png", "/assest/fourthimgballs.png", "/assest/fimgballs.png", "/assest/simg-balls.png", "/assest/seventhimg-balls.png", "/assest/8img-balls.png", "/assest/9img-balls.png", "/assest/10imgballs.png"];
+const gridItems = document.getElementsByClassName("grid-item");
 const leftArrow = document.getElementById("left-arrow");
 const rightArrow = document.getElementById("right-arrow");
 
+function changeImgs(offset) {
+    currentImg = (currentImg + offset + imgs.length) % imgs.length;
+    for (let i = 0; i < gridItems.length; i++) {
+        gridItems[i].src = imgs[(currentImg + i) % imgs.length];
+    }
+}
+
 leftArrow.addEventListener("click", function () {
-    currentImg = (currentImg - 1 + imgs.length) % imgs.length;
-    img.src = imgs[currentImg];
+    changeImgs(-5);
 });
 
 rightArrow.addEventListener("click", function () {
-    currentImg = (currentImg + 1) % imgs.length;
-    img.src = imgs[currentImg];
+    changeImgs(5);
 });
+
+
