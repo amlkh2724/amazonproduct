@@ -1,3 +1,5 @@
+//onmouseover that can be show the pic in big when we hover a small image
+
 const img1 = document.getElementById("img-small-1")
 const img2 = document.getElementById("img-small-2")
 const img3 = document.getElementById("img-small-3")
@@ -39,7 +41,7 @@ img7.addEventListener("mouseover", function () {
 }, false);
 
 
-
+//when we click the arrow we go to five pic next and we can back to the default
 let currentImg = 0;
 const imgs = ["/assest/firstimgballs.png", "/assest/secondimgballs.png", "/assest/thirdimgballs.png", "/assest/fourthimgballs.png", "/assest/fimgballs.png", "/assest/simg-balls.png", "/assest/seventhimg-balls.png", "/assest/8img-balls.png", "/assest/9img-balls.png", "/assest/10imgballs.png"];
 const gridItems = document.getElementsByClassName("grid-item");
@@ -60,5 +62,14 @@ leftArrow.addEventListener("click", function () {
 rightArrow.addEventListener("click", function () {
     changeImgs(5);
 });
+
+// when we click add to list button it add 1 items to the cart.
+let count = 0;
+
+function addingcart() {
+    count++;
+    let up = document.querySelector(".addinsert");
+    up.innerHTML = count;
+}
 
 

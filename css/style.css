@@ -1,7 +1,83 @@
-/* url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) */
-/* url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff)
-format("woff"); */
+/* responsive to iphone 12 pro*/
 
+@media only screen and (max-width: 600px) and (min-width: 100px) {
+    nav {
+        max-width: 100%;
+        font-size: 20%
+    }
+
+    #big-hover {
+        width: 10rem;
+    }
+
+    .div2>.container {
+        max-width: 11rem;
+        max-height: 10rem;
+    }
+
+    div>.item {
+        display: none;
+    }
+
+    .con {
+        max-width: 18rem;
+    }
+
+    .mainimage {
+        max-height: 500px;
+    }
+
+    .div2 {
+        display: none;
+        margin-top: 75vh;
+        margin-right: 100rem;
+        font-size: 0.2rem;
+
+    }
+
+    #big-hover {
+        max-width: 40%;
+    }
+
+    .imgssd>.footer {
+        position: relative;
+        margin-top: 70vh;
+        right: 2rem;
+        /* margin-right: 10rem; */
+    }
+
+    .div3>.listbuy {
+        position: relative;
+        right: 20rem;
+        width: 80%;
+        height: 25rem;
+    }
+
+    .centersell {
+        text-align: center;
+        position: relative;
+        top: 2rem;
+        right: 18.2rem;
+        width: 72%;
+    }
+
+    .containerprod {
+        display: none;
+    }
+
+    #left-arrow {
+        max-width: 40px;
+        top: 1vh;
+
+    }
+
+    #right-arrow {
+        top: 1vh;
+        max-width: 40px;
+
+    }
+
+}
 
 * {
     margin: 0;
@@ -40,19 +116,6 @@ p {
     padding: 0.4rem;
 }
 
-/* h5 {
-    width: 8rem;
-} */
-
-/* .location {
-    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -78px -341px;
-    width: 16px;
-    height: 19px;
-} */
-
-
-/* sprint#challenge */
-
 
 nav {
     max-width: 100%;
@@ -77,26 +140,22 @@ nav {
 
 }
 
-.right .dflex {}
 
 .wid {
     margin-left: 1.6rem;
-    /* width: 5.5rem; */
-    /* width: 200px; */
-}
 
-.item {}
+}
 
 .item:hover {
     border: 1px solid #fff;
     border-radius: 2px;
-    margin: -0.1rem;
 }
 
 a {
     display: flex;
     text-align: center;
     text-decoration: none;
+
 }
 
 
@@ -117,7 +176,6 @@ a span {
     font-family: inherit;
     cursor: pointer;
     color: #d6d6d6;
-    /* line-height: 44px; */
     overflow: hidden;
     margin: 0 1px;
     -webkit-box-sizing: border-box;
@@ -139,8 +197,6 @@ a span {
     text-decoration: none;
     margin-right: -1rem;
     margin-left: 0;
-    /* padding-right: 9px;
-    padding-left: 9px; */
 }
 
 .item i {
@@ -158,7 +214,6 @@ a span {
 
 nav input {
     display: flex;
-    /* width: 800px; */
     flex-grow: 1;
 }
 
@@ -190,7 +245,6 @@ nav .all {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* justify-content: space-around; */
 }
 
 .all {
@@ -221,12 +275,19 @@ nav .search {
     height: 25px;
 }
 
-.logos>span {
+.cart {
     font-size: xx-small;
     position: absolute;
-    bottom: 0;
     left: 3rem;
-    z-index: 11;
+    top: 1.5rem;
+
+}
+
+.addinsert {
+    color: orange;
+    position: absolute;
+    left: 1.7rem;
+    bottom: 1rem;
 }
 
 .sub {
@@ -267,18 +328,21 @@ ul li {
     object-fit: fill;
 }
 
-/* img {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    object-fit: contain;
-    object-fit: fill;
-} */
-
 .main .back {
     display: flex;
     justify-content: space-between;
-    background-color: #000;
+    padding: 0 2.8rem;
+}
+
+.colorbackspon {
+    -webkit-text-size-adjust: 100%;
+    line-height: 20px;
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 11px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
 }
 
 .parent {
@@ -307,10 +371,7 @@ ul li {
 
 
 .mainimage {
-    /* position: sticky; */
     height: 170vh;
-    /* background-color: red; */
-    /* z-index: 1; */
     display: grid;
     grid-template-columns: 1fr 10fr;
     grid-template-rows: 0;
@@ -336,8 +397,6 @@ ul li {
     align-items: ce;
     margin-left: 1.2rem;
     height: 38rem;
-    /* width: 100%; */
-    /* background-color: red; */
 }
 
 
@@ -349,8 +408,11 @@ ul .borderr {
 
 }
 
-.img-small-1:hover {
-    border: 2px solid gold
+.borderr:hover {
+    -webkit-text-size-adjust: 100%;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+    ;
 }
 
 #big-hover {
@@ -364,10 +426,8 @@ ul .borderr {
 .imgbig:hover {}
 
 .div2 .container {
-    /* font-size: 2.4rem; */
     width: 37vw;
     height: 170vh;
-    /* background-color: rgb(172, 65, 65); */
     color: #000;
 
 
@@ -388,7 +448,6 @@ ul .borderr {
     color: #007185;
     margin-left: 1rem;
     font-size: 1.5rem;
-    /* padding: 1rem; */
 }
 
 .colorss {
@@ -400,9 +459,7 @@ ul .borderr {
 }
 
 .star {
-    /* margin-bottom: 2rem; */
     margin-left: 1rem;
-
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
     line-height: 20px;
@@ -421,15 +478,6 @@ ul .borderr {
     background-image: url(https://m.media-amazon.com/images/S/sash/ZNt8quAxIfEMMky.png);
 }
 
-.arrowdown {
-    position: absolute;
-    background: url('../assest/McBZv0ZvnbehkIx.png') no-repeat -7px -103px;
-    width: 10px;
-    height: 7px;
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    /* margin-bottom: 1rem; */
-}
 
 .colorred {
     line-height: 2rem;
@@ -505,13 +553,11 @@ ul .borderr {
 }
 
 .listbuy {
-    /* line-height: 1rem; */
     text-align: center;
     margin-left: 5vw;
     margin-top: 5vh;
     width: 200px;
     height: 200px;
-    /* background-color: rgb(177, 124, 124); */
     border-radius: 1rem;
     border: 1px rgba(128, 128, 128, 0.8) solid
 }
@@ -519,7 +565,6 @@ ul .borderr {
 .redcolorr {
     padding: 1rem;
     font-size: 1.4rem;
-    /* margin-bottom: 2rem; */
     color: rgba(255, 57, 57, 0.853);
 }
 
@@ -602,9 +647,6 @@ ul .borderr {
     margin-top: 5vh;
     width: 20rem;
     height: 22rem;
-    /* border: 1px rgba(128, 128, 128, 0.8) solid */
-
-
 }
 
 .hr {
@@ -618,15 +660,9 @@ ul .borderr {
     color: black;
 }
 
-/* footer{
-    height: 1100px;
-} */
 .imgssd {
     height: 100h;
     background-color: red;
-    /* background-color: red;
-    height: 2020px; 
-    width: 100%; */
 }
 
 .footer {
@@ -637,11 +673,7 @@ ul .borderr {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
-    background-color: red;
     padding: 1rem 3rem;
-    /* font-size: 1.6rem;
-    color: #c60;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .orang {
@@ -666,9 +698,9 @@ ul .borderr {
 .gridimg {
     position: relative;
     margin-top: 2rem;
-    /* background-color: rgb(89, 89, 89); */
+
     height: 50vh;
-    /* border:1px solid black; */
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
@@ -696,46 +728,7 @@ ul .borderr {
     grid-area: 1 / 5 / 2 / 6;
 }
 
-/* .div6 { grid-area: 1 / 6 / 2 / 7; } */
-/* .div1 {
-    background: url(/assest/firstimgballs.png) no-repeat center center/contain;
-}
 
-.div2 {
-    background: url(/assest/secondimgballs.png) no-repeat center center/contain;
-}
-
-.div3 {
-    background: url(/assest/thirdimgballs.png) no-repeat center center/contain;
-}
-
-.div4 {
-    background: url(/assest/fourthimgballs.png) no-repeat center center/contain;
-}
-
-.div5 {
-    background: url(/assest/fimgballs.png) no-repeat center center/contain;
-} */
-
-
-.arrowflex {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.arrowleft {
-    position: absolute;
-    padding: 0 0.8rem;
-    top: 20vh;
-    margin-right: 0.5rem;
-    right: 0;
-    background: url('/assest/McBZv0ZvnbehkIx.png') no-repeat -107px -8px;
-    width: 1.5rem;
-    height: 2.6rem;
-}
 
 
 
@@ -751,12 +744,10 @@ ul .borderr {
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
-    /* grid-gap: 1em; */
 }
 
 .grid-item {
 
-    /* padding: 2rem; */
     width: 80%;
     height: auto;
     transition: all 0.5s ease;
@@ -771,6 +762,7 @@ ul .borderr {
 #left-arrow {
     position: absolute;
     background: none;
+    border-radius: 8px;
 
     color: #000;
     bottom: 30vh;
@@ -781,10 +773,14 @@ ul .borderr {
     border: 1px rgba(128, 128, 128, 0.8) solid
 }
 
+#left-arrow:hover {
+    background-color: rgba(246, 237, 219, 0.22);
+}
+
 #right-arrow {
     color: black;
     background: none;
-
+    border-radius: 8px;
     position: absolute;
     bottom: 30vh;
     right: 0.5rem;
@@ -793,3 +789,6 @@ ul .borderr {
     border: 1px rgba(128, 128, 128, 0.8) solid
 }
 
+#right-arrow:hover {
+    background-color: rgba(246, 237, 219, 0.22);
+}
