@@ -1,0 +1,280 @@
+@import url("/css/style.css");
+
+.desktop {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+.container2 {
+    max-width: 100%;
+    height: 10.2rem;
+    background-color: #1a2029;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    padding: 4px 15px 4px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -203px -274px;
+    width: 17rem;
+    height: 14px;
+
+}
+
+.logo {
+
+    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -11px -11px;
+    width: 9.6rem;
+    height: 3rem;
+    /* display: flex; */
+    position: relative;
+    top: 1rem;
+}
+
+.signin {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    /* width: 17rem; */
+    /* background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -173px -270px;
+    width: 3rem;
+	height: 20px; */
+}
+
+.shopcart {
+    display: flex;
+    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -11px -241px;
+    width: 50px;
+    height: 25px;
+    /* margin-right: 1rem; */
+
+}
+.searchh{
+    color: black;
+    padding: 0rem 1.6rem;
+    background: rgb(247, 155, 80);
+    height: 3rem;
+
+    border-radius: 0 0.5rem 0.5rem 0;
+    
+}
+.imgsearchh{
+    display: flex;
+    background: url("../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png") no-repeat -11px -171px;
+    width: 15px;
+    height: 15px;
+}
+
+.inputsearch {
+
+    display: flex;
+   height: 6rem;
+    align-items: flex-end;
+
+}
+
+input {
+    width: 100%;
+    height: 3rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    height: 3rem;
+    width: 3rem;
+    background: rgb(247, 155, 80);
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.iconloc {
+    background: url('../assest/new-nav-sprite-global-1x_blueheaven-account._CB658093420_.png') no-repeat -78px -341px;
+    width: 16px;
+    height: 22px;
+}
+
+.location {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 4rem;
+    background-color: #232f3e;
+}
+
+.imgsss {
+    /* width: 1rem; */
+    height: 12rem;
+}
+
+.div4 {
+    height: 20rem;
+}
+
+.big-hover1 {
+    width: 2rem;
+}
+
+
+.flexme {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainpage>.container {
+    /* display: flex; */
+    /* flex-direction: column;
+    height: 25vh; */
+}
+
+.colors {
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.color {
+    display: flex;
+    margin-left: 1rem;
+    font-size: large;
+    line-height: 2rem;
+    color: black;
+}
+
+.div5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#big-hover1 {
+    background: url(../assest/bigimg-balls.jpg)no-repeat center center/contain;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 30rem;
+}
+
+.buycart {
+    height: 500px;
+}
+
+.design {
+    font-size: large;
+}
+
+.similaritt {
+    background-color: rgb(250, 195, 94);
+
+    margin-top: 3rem;
+    text-align: center;
+    font-size: medium;
+    font-weight: 600;
+    width: 95%;
+    height: 4rem;
+    /* display: flex; */
+    margin-left: 1rem;
+    /* font-size: large; */
+    /* line-height: 2rem; */
+    color: black;
+}
+
+.designn{
+    line-height: 3rem;
+    color: #000;
+    margin-left: 1rem;
+    font-size: 2.2rem;
+}
+.colorredd{
+    line-height: 2rem;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: red;
+    margin-left: 1rem;
+}
+.listadd{
+    background: none;
+    margin-left: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    color: rgba(152, 152, 253, 0.604);
+    margin-top: 2rem;
+    width: 30vw;
+    font-size: medium;
+}
+.hrr
+{ 
+      margin-top: 2rem;
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+.marginalll{
+    margin-left: 1rem;
+}
+.det{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+
+}
+.flexthatt{
+    margin-top: 2rem;
+display: flex;
+gap: 10rem;
+
+}
+.boldd{
+    color: black;
+    font-size: medium;
+}
+.colorbll{
+    color: black;
+    font-size: medium;
+}
+.additionaldetailss{
+    height: 250px;
+    margin-left: 1rem;
+}
+.marginlee{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+.smallbuss{
+    color: black;
+    font-size: small;
+}
+.flexitt{
+    margin-top: 2rem;
+    display: flex;
+}
+.colorblackk{
+    width: 70%;
+    line-height: 1.4rem;
+    color: black;
+}
